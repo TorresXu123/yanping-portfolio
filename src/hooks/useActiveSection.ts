@@ -20,8 +20,21 @@ function useActiveSection(sectionIds: string[]): string {
     }
 
     const updateActive = () => {
-      const center = window.scrollY + window.innerHeight / 2;
-      let current = sectionIds[0];
+      const scrollY = window.scrollY;
+      const firstId = sectionIds[0];
+      const firstElement = firstId ? document.getElementById(firstId) : null;
+      const topThreshold = firstElement ? firstElement.offsetHeight / 3 : 0;
+
+      // When the page is near the top, always highlight the first section
+      // so the "home" nav item stays active on initial load and when scrolled
+      // back to the top.
+      if (scrollY <= topThreshold) {
+        setActiveSection(firstId ?? '');
+        return;
+      }
+
+      const center = scrollY + window.innerHeight / 2;
+      let current = firstId;
 
       for (const id of sectionIds) {
         const element = document.getElementById(id);
@@ -30,7 +43,7 @@ function useActiveSection(sectionIds: string[]): string {
         }
       }
 
-      setActiveSection(current);
+      setActiveSection(current ?? '');
     };
 
     updateActive();
