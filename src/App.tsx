@@ -51,7 +51,6 @@ function App(): JSX.Element {
 
         <section
           ref={worksRef}
-          id="works"
           className="works-screen reveal"
           aria-label="Works and skills"
         >

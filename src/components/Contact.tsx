@@ -35,16 +35,16 @@ function Contact(): JSX.Element {
           </a>
 
           <a
-            href="https://github.com/yanping"
+            href="https://github.com/TorresXu123"
             className="contact__item"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Visit GitHub profile github.com/yanping"
+            aria-label="Visit GitHub profile github.com/TorresXu123"
           >
             <span className="contact__icon" aria-hidden="true">
               🐙
             </span>
-            <span className="contact__text">github.com/yanping</span>
+            <span className="contact__text">github.com/TorresXu123</span>
             <span className="contact__arrow" aria-hidden="true">
               →
             </span>

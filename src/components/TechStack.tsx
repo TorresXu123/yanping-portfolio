@@ -93,7 +93,11 @@ function TechStack(): JSX.Element {
         <text className="radar-label" x={labelPoint.x} y={labelPoint.y}>
           {stat.label}
         </text>
-        <text className="radar-label-value" x={labelPoint.x} y={labelPoint.y + 16}>
+        <text
+          className="radar-label-value"
+          x={labelPoint.x}
+          y={labelPoint.y + 16}
+        >
           {stat.value}
         </text>
       </g>
@@ -120,6 +124,7 @@ function TechStack(): JSX.Element {
   return (
     <section
       ref={sectionRef}
+      id="works"
       className="tech-radar reveal"
       aria-label="Tech stack proficiency"
     >
@@ -131,7 +136,8 @@ function TechStack(): JSX.Element {
           </span>
         </h2>
         <p>
-          五年沉淀 · 全栈 + AI 实战派。从前端交互到后端架构，从 LLM 应用到移动端交付——一张雷达图说清能力分布。
+          五年沉淀 · 全栈 + AI 实战派。从前端交互到后端架构，从 LLM
+          应用到移动端交付——一张雷达图说清能力分布。
         </p>
         <div className="tech-radar__stats">
           {techStackData.map((stat) => (
@@ -170,7 +176,13 @@ function TechStack(): JSX.Element {
               <stop offset="60%" stopColor="#48dbfb" stopOpacity="0.3" />
               <stop offset="100%" stopColor="#ff6b6b" stopOpacity="0.1" />
             </radialGradient>
-            <linearGradient id="radarStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+            <linearGradient
+              id="radarStroke"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
               <stop offset="0%" stopColor="#ff6b6b" />
               <stop offset="50%" stopColor="#a855f7" />
               <stop offset="100%" stopColor="#48dbfb" />

@@ -39,10 +39,42 @@ function IconAIAssistant(): JSX.Element {
 function IconLifeHub(): JSX.Element {
   return (
     <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="6" y="6" width="12" height="12" rx="3" stroke="currentColor" strokeWidth="2.5" />
-      <rect x="22" y="6" width="12" height="12" rx="3" stroke="currentColor" strokeWidth="2.5" />
-      <rect x="6" y="22" width="12" height="12" rx="3" stroke="currentColor" strokeWidth="2.5" />
-      <rect x="22" y="22" width="12" height="12" rx="3" stroke="currentColor" strokeWidth="2.5" />
+      <rect
+        x="6"
+        y="6"
+        width="12"
+        height="12"
+        rx="3"
+        stroke="currentColor"
+        strokeWidth="2.5"
+      />
+      <rect
+        x="22"
+        y="6"
+        width="12"
+        height="12"
+        rx="3"
+        stroke="currentColor"
+        strokeWidth="2.5"
+      />
+      <rect
+        x="6"
+        y="22"
+        width="12"
+        height="12"
+        rx="3"
+        stroke="currentColor"
+        strokeWidth="2.5"
+      />
+      <rect
+        x="22"
+        y="22"
+        width="12"
+        height="12"
+        rx="3"
+        stroke="currentColor"
+        strokeWidth="2.5"
+      />
     </svg>
   );
 }
@@ -99,39 +131,42 @@ export const projectsData: Project[] = [
     title: "智行 AI 助手",
     description:
       "基于大语言模型的智能对话系统，融合 RAG 检索与多轮上下文理解，支持私有知识库问答与多端接入。",
-    url: "https://github.com/yanping/ai-assistant",
+    url: "https://github.com/TorresXu123/ai-assistant",
     icon: <IconAIAssistant />,
     tags: [
       { label: "Python", variant: "backend" },
       { label: "LLM", variant: "ai" },
       { label: "FastAPI", variant: "backend" },
     ],
-    accent: "linear-gradient(135deg, rgba(168, 85, 247, 0.35), rgba(72, 219, 251, 0.35))",
+    accent:
+      "linear-gradient(135deg, rgba(168, 85, 247, 0.35), rgba(72, 219, 251, 0.35))",
   },
   {
     id: "life-hub",
     title: "生活一站通",
     description:
       "整合餐饮外卖、出行查询、生活缴费等多元场景的轻量应用，Web · 小程序 · App 三端无缝触达。",
-    url: "https://github.com/yanping/life-hub",
+    url: "https://github.com/TorresXu123/life-hub",
     icon: <IconLifeHub />,
     tags: [
       { label: "微信小程序", variant: "frontend" },
       { label: "云开发", variant: "tools" },
     ],
-    accent: "linear-gradient(135deg, rgba(72, 219, 251, 0.35), rgba(16, 185, 129, 0.35))",
+    accent:
+      "linear-gradient(135deg, rgba(72, 219, 251, 0.35), rgba(16, 185, 129, 0.35))",
   },
   {
     id: "velocity-driver",
     title: "极速车神",
     description:
       "基于 Three.js 与 WebGL 打造的浏览器 3D 赛车游戏，借助手势识别实现沉浸式操控与真实漂移手感。",
-    url: "https://github.com/yanping/velocity-driver",
+    url: "https://github.com/TorresXu123/velocity-driver",
     icon: <IconVelocityDriver />,
     tags: [
       { label: "Three.js", variant: "frontend" },
       { label: "WebGL", variant: "frontend" },
     ],
-    accent: "linear-gradient(135deg, rgba(255, 107, 107, 0.35), rgba(254, 202, 87, 0.35))",
+    accent:
+      "linear-gradient(135deg, rgba(255, 107, 107, 0.35), rgba(254, 202, 87, 0.35))",
   },
 ];
