@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://TorresXu123.github.io/yanping-portfolio/sitemap.xml
