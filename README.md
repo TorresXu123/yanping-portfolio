@@ -20,17 +20,17 @@ const yanping = {
     "大语言模型应用 (LLM)",
     "RAG 知识增强",
     "3D 可视化 (WebGL)",
-    "小程序与多端开发"
+    "小程序与多端开发",
   ],
   expertise: [
     "React / TypeScript / Vite 工程化",
     "Tailwind CSS 设计系统",
     "Python / FastAPI 后端",
-    "Three.js / WebGL 互动视觉"
+    "Three.js / WebGL 互动视觉",
   ],
   currentlyLearning: ["AI Agent 工作流", "云原生部署", "设计系统"],
   lookingFor: "有挑战性的全栈 + AI 项目合作",
-  funFact: "能用 React 搭作品集，也能用 Three.js 写 3D 赛车游戏"
+  funFact: "能用 React 搭作品集，也能用 Three.js 写 3D 赛车游戏",
 };
 ```
 
@@ -48,20 +48,8 @@ const yanping = {
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TorresXu123&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7&text_color=FFFFFF&include_all_commits=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TorresXu123&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A855F7&langs_count=8)
-
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=TorresXu123&theme=radical&hide_border=true&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7)
 
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TorresXu123&theme=redical&hide_border=true" alt="Contribution Graph" />
 </div>
 
 ---
@@ -76,8 +64,6 @@ const yanping = {
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
-
-> 💡 **提示**: 邮箱与头像 URL 为占位符，请替换为你的真实地址。
 
 ---
 

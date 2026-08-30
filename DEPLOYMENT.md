@@ -13,7 +13,7 @@
 1. 在项目根目录打开终端：
 
    ```bash
-   cd D:\WorkSpace\WorkBuddySpace\yanping-blogs\yanping-portfolio
+   cd D:\WorkSpace\WorkBuddySpace\yanping-blogs\TorresXu123
    ```
 
 2. 安装依赖：
@@ -28,7 +28,7 @@
    npm run dev
    ```
 
-   Vite 会在 `http://localhost:5173/yanping-portfolio/` 启动应用。
+   Vite 会在 `http://localhost:5173/TorresXu123/` 启动应用。
 
 4. 在浏览器中打开终端输出的地址。
 
@@ -48,7 +48,7 @@ npm run preview
 
 ## GitHub Pages 设置
 
-1. 将仓库推送到 GitHub，仓库名命名为 `yanping-portfolio`。
+1. 将仓库推送到 GitHub，仓库名命名为 `TorresXu123`。
 2. 进入 GitHub 仓库的 **Settings → Pages**。
 3. 在 **Build and deployment** 中，选择 **GitHub Actions** 作为来源。
 4. 确保 `master` 分支中存在工作流文件 `.github/workflows/deploy.yml`。
@@ -73,7 +73,7 @@ npm run preview
 
 ## 基础路径
 
-`vite.config.ts` 中设置了 `base: '/yanping-portfolio/'`，确保站点托管在 `https://<username>.github.io/yanping-portfolio/` 时资源链接正确。
+`vite.config.ts` 中设置了 `base: '/TorresXu123/'`，确保站点托管在 `https://<username>.github.io/TorresXu123/` 时资源链接正确。
 
 如果仓库名称变更，需要同步更新 `vite.config.ts` 中的 `base`：
 

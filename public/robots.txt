@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://TorresXu123.github.io/yanping-portfolio/sitemap.xml
+Sitemap: https://TorresXu123.github.io/TorresXu123/sitemap.xml
