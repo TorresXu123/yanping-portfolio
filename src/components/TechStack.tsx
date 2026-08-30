@@ -136,7 +136,7 @@ function TechStack(): JSX.Element {
           </span>
         </h2>
         <p>
-          五年沉淀 · 全栈 + AI 实战派。从前端交互到后端架构，从 LLM
+          6年沉淀 · 全栈 + AI 实战派。从前端交互到后端架构，从 LLM
           应用到移动端交付——一张雷达图说清能力分布。
         </p>
         <div className="tech-radar__stats">
