@@ -59,9 +59,6 @@ function App(): JSX.Element {
 
   return (
     <div className="app">
-      <a href="#main-content" className="skip-link">
-        跳转到主要内容
-      </a>
       <nav className="hero__nav" aria-label="Primary navigation">
         {NAV_ITEMS.map((item) => (
           <NavLink
