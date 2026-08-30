@@ -1,81 +1,94 @@
-# Yan Ping — 开发者作品集
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Hi+there+%F0%9F%91%8B+I'm+Yan+Ping;Full-Stack+Engineer+%26+AI+Enthusiast;Welcome+to+my+GitHub+Profile!" alt="Typing SVG" />
+</div>
 
-一个基于 **Vite + React + TypeScript + Tailwind CSS v4** 构建的极简暗色主题单页开发者作品集。
+<div align="center">
+  <img src="https://github.com/TorresXu123.png" style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #a855f7; box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);" alt="Yan Ping" />
+</div>
 
-## 功能特性
+---
 
-- 三大全屏区块：首页 Hero、技术栈 + 作品、联系方式
-- 姓名彩虹渐变光晕动画
-- 平滑锚点滚动与滚动渐显动画
-- 响应式布局（手机 / 平板 / 桌面）
-- 支持减少动态效果，提升无障碍体验
-- SEO 元标签、Open Graph 图片与 Person 结构化数据
-- GitHub Actions 工作流，自动部署到 GitHub Pages
+## 👨‍💻 About Me
 
-## 技术栈
-
-- **框架**：React 18 + TypeScript
-- **构建工具**：Vite 5
-- **样式**：Tailwind CSS v4 + 自定义设计令牌
-- **图标**：Emoji + 内联 SVG 网站图标
-- **部署**：GitHub Pages
-
-## 环境要求
-
-- Node.js 18 或更高版本
-- npm 或 yarn
-
-## 快速开始
-
-```bash
-cd yanping-portfolio
-npm install
+```typescript
+const yanping = {
+  name: "Yan Ping",
+  role: "全栈开发工程师 & AI 爱好者",
+  location: "中国",
+  interests: [
+    "React 前端工程化",
+    "大语言模型应用 (LLM)",
+    "RAG 知识增强",
+    "3D 可视化 (WebGL)",
+    "小程序与多端开发"
+  ],
+  expertise: [
+    "React / TypeScript / Vite 工程化",
+    "Tailwind CSS 设计系统",
+    "Python / FastAPI 后端",
+    "Three.js / WebGL 互动视觉"
+  ],
+  currentlyLearning: ["AI Agent 工作流", "云原生部署", "设计系统"],
+  lookingFor: "有挑战性的全栈 + AI 项目合作",
+  funFact: "能用 React 搭作品集，也能用 Three.js 写 3D 赛车游戏"
+};
 ```
 
-## 本地开发
+---
 
-```bash
-npm run dev
-```
+## 🚀 Tech Stack
 
-开发服务器默认运行在 `http://localhost:5173/yanping-portfolio/`（已按 GitHub Pages 路径配置 base）。
+<div align="center">
+  <img src="./tech-stack-radar.svg" alt="Tech stack radar chart: Frontend 92, Backend 84, AI / LLM 78, Mobile 72, DevOps 76" width="520" />
+</div>
 
-## 构建
+---
 
-```bash
-npm run build
-```
+## 📊 GitHub Stats
 
-静态站点将输出到 `dist/` 目录。如需本地预览生产构建：
+<div align="center">
 
-```bash
-npm run preview
-```
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TorresXu123&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7&text_color=FFFFFF&include_all_commits=true&count_private=true)
 
-## 项目结构
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TorresXu123&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A855F7&langs_count=8)
 
-```
-yanping-portfolio/
-├── public/                 # 静态资源
-│   ├── favicon.svg
-│   ├── og-image.png
-│   └── robots.txt
-├── src/
-│   ├── components/         # React 页面区块组件
-│   ├── data/               # 项目与技术栈数据
-│   ├── hooks/              # 滚动渐显与平滑滚动 Hooks
-│   ├── App.tsx
-│   ├── index.css           # 设计令牌 + 组件样式
-│   └── main.tsx
-├── .github/workflows/       # CI/CD
-├── ARCHITECTURE.md
-├── DEPLOYMENT.md
-├── index.html
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
-```
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=TorresXu123&theme=radical&hide_border=true&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7)
 
-## 授权
+</div>
 
-© 2025 Yan Ping. 保留所有权利。
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TorresXu123&theme=redical&hide_border=true" alt="Contribution Graph" />
+</div>
+
+---
+
+## 🤝 Connect with Me
+
+<div align="center">
+  <a href="https://github.com/TorresXu123" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="mailto:yanping@example.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</div>
+
+> 💡 **提示**: 邮箱与头像 URL 为占位符，请替换为你的真实地址。
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=TorresXu123&color=A855F7&style=for-the-badge" alt="Profile Views" />
+</div>
+
+<div align="center">
+  <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="icon" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/webpack-icon.svg" alt="icon" width="65" height="65" />
+</div>
