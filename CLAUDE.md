@@ -67,10 +67,10 @@ When adding or modifying UI, update the relevant CSS in `src/index.css` rather t
 
 GitHub Actions deploys to GitHub Pages on every push to `master` via `.github/workflows/deploy.yml`:
 
-1. `build` job — checks out code, sets up Node 20, runs `npm ci` and `npm run build`, uploads `dist/`.
+1. `build` job — checks out code (`actions/checkout@v5`), sets up Node 22 (`actions/setup-node@v5` with npm cache), runs `npm ci` and `npm run build`, uploads `dist/`.
 2. `deploy` job — deploys the uploaded artifact to GitHub Pages.
 
-The workflow uses `working-directory: ./yanping-portfolio` and `cache-dependency-path: ./yanping-portfolio/package-lock.json`, which implies the repository may be nested inside a parent repo or the workflow expects a subdirectory. If the repository root is not named `yanping-portfolio`, update these paths.
+The repository root is the project itself (no nested subdirectory), so the workflow runs all steps at the repo root and uses `cache: npm` on the root `package-lock.json`. There is no ESLint config file in this repo, so CI runs type-check + build only (no `npm run lint` step).
 
 ## Important files
 

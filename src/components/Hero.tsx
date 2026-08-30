@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import useConstellation from "../hooks/useConstellation";
-import useMagnetic from "../hooks/useMagnetic";
 import useScramble from "../hooks/useScramble";
 
 /** Decoding glyphs shown while the subtitle resolves. */
@@ -42,7 +41,6 @@ function Hero(): JSX.Element {
   const [isReady, setIsReady] = useState(false);
   const [isGlitching, setIsGlitching] = useState(false);
 
-  const ctaRef = useMagnetic<HTMLAnchorElement>();
   const subtitleChars = useScramble(
     SUBTITLE_TEXT,
     SUBTITLE_GLYPHS,

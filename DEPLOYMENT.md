@@ -4,7 +4,7 @@
 
 ## 环境要求
 
-- **Node.js**：18 或更高版本（GitHub Actions 使用 Node.js 20）
+- **Node.js**：18 或更高版本（GitHub Actions 使用 Node.js 22 LTS）
 - **npm**：9 或更高版本
 - **操作系统**：Windows、macOS 或 Linux
 
@@ -59,10 +59,10 @@ npm run preview
 `.github/workflows/deploy.yml` 定义了一个双任务流水线：
 
 1. **build**
-   - 检出代码。
-   - 设置 Node.js 20。
+   - 检出代码（`actions/checkout@v5`）。
+   - 设置 Node.js 22（`actions/setup-node@v5`，启用 npm 依赖缓存）。
    - 使用 `npm ci` 安装依赖。
-   - 运行 `npm run build`。
+   - 运行 `npm run build`（先 `tsc -b` 类型检查，再由 Vite 打包）。
    - 将 `dist/` 目录上传为 Pages 构建产物。
 
 2. **deploy**
