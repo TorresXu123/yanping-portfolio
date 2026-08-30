@@ -65,7 +65,7 @@ When adding or modifying UI, update the relevant CSS in `src/index.css` rather t
 
 ## Deployment
 
-GitHub Actions deploys to GitHub Pages on every push to `main` via `.github/workflows/deploy.yml`:
+GitHub Actions deploys to GitHub Pages on every push to `master` via `.github/workflows/deploy.yml`:
 
 1. `build` job — checks out code, sets up Node 20, runs `npm ci` and `npm run build`, uploads `dist/`.
 2. `deploy` job — deploys the uploaded artifact to GitHub Pages.

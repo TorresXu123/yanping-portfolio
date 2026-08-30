@@ -51,8 +51,8 @@ npm run preview
 1. 将仓库推送到 GitHub，仓库名命名为 `yanping-portfolio`。
 2. 进入 GitHub 仓库的 **Settings → Pages**。
 3. 在 **Build and deployment** 中，选择 **GitHub Actions** 作为来源。
-4. 确保 `main` 分支中存在工作流文件 `.github/workflows/deploy.yml`。
-5. 下一次向 `main` 分支推送代码时，工作流会自动构建并部署 `dist/` 目录。
+4. 确保 `master` 分支中存在工作流文件 `.github/workflows/deploy.yml`。
+5. 下一次向 `master` 分支推送代码时，工作流会自动构建并部署 `dist/` 目录。
 
 ## CI/CD 工作流
 
@@ -69,7 +69,7 @@ npm run preview
    - 等待 build 任务完成。
    - 将产物部署到 GitHub Pages。
 
-工作流会在每次推送到 `main` 时触发，也可以从 **Actions** 标签页手动运行。
+工作流会在每次推送到 `master` 时触发，也可以从 **Actions** 标签页手动运行。
 
 ## 基础路径
 
@@ -79,7 +79,7 @@ npm run preview
 
 ```ts
 export default defineConfig({
-  base: '/<new-repo-name>/',
+  base: "/<new-repo-name>/",
   // ...
 });
 ```
@@ -104,7 +104,7 @@ npm install
 
 ### 工作流未运行
 
-- 确认 `main` 分支中存在 `.github/workflows/deploy.yml`。
+- 确认 `master` 分支中存在 `.github/workflows/deploy.yml`。
 - 在 **Actions** 标签页检查是否有被禁用的工作流。
 - 确认仓库已在 **Settings → Pages** 中开启 GitHub Pages 权限。
 
