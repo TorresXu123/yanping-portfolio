@@ -4,7 +4,7 @@
 
 # Yan Ping
 
-*全栈开发工程师 & AI 爱好者*
+_全栈开发工程师 & AI 爱好者_
 
 </div>
 
@@ -14,7 +14,7 @@
 
 <div align="center">
 
-`React` · `TypeScript` · `Python` · `Three.js` · `LLM`
+`React` · `TypeScript` · `JAVA` · `Three.js` · `LLM`
 
 </div>
 
@@ -28,19 +28,19 @@
 
 > 我是一名全栈开发工程师，热衷于将复杂的技术问题转化为优雅的用户体验。
 >
-> 从 React 前端工程化到 Python 后端架构，从 Three.js 的 3D 世界到大语言模型的智能交互——我享受在代码与创意之间寻找平衡。
+> 从 React 前端工程化到 JAVA 后端架构，从 Three.js 的 3D 世界到大语言模型的智能交互——我享受在代码与创意之间寻找平衡。
 
 <br>
 
 ## 技术栈
 
-| 领域 | 技术 |
-|------|------|
-| 前端 | React · TypeScript · Vite · Tailwind CSS |
-| 后端 | Python · FastAPI · Node.js |
-| 可视化 | Three.js · WebGL · Canvas |
-| AI | LLM · RAG · AI Agent |
-| 多端 | 微信小程序 · React Native |
+| 领域   | 技术                                     |
+| ------ | ---------------------------------------- |
+| 前端   | React · TypeScript · Vite · Tailwind CSS |
+| 后端   | JAVA · Spring Boot · Node.js             |
+| 可视化 | Three.js · WebGL · Canvas                |
+| AI     | LLM · RAG · AI Agent                     |
+| 多端   | 微信小程序 · React Native                |
 
 <br>
 
